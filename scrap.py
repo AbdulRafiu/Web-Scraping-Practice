@@ -19,4 +19,4 @@ browser.find_element_by_xpath('//*[@id="checkout_shipping_address_city"]').send_
 browser.find_element_by_xpath('//*[@id="checkout_shipping_address_zip"]').clear()
 browser.find_element_by_xpath('//*[@id="checkout_shipping_address_zip"]').send_keys("66100")
 browser.find_element_by_xpath('//*[@id="checkout_shipping_address_phone"]').send_keys("3003046687")
-browser.find_element_by_xpath('//*[@id="continue_button"]').click()
+web = browser.find_element_by_xpath('//*[@id="continue_button"]').click()
